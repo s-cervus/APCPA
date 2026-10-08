@@ -8,27 +8,33 @@
             Padding="30,0"
             Spacing="25">
             
-
-            
-            
-            
             <Label
-                Text="Hello, World!"
+                Text="¡BIENVENIDOS!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+                Text="Usuario:  "
+                SemanticProperties.HeadingLevel="Level5" />
+
+            <Entry
+                Text=" "
+                 />
+
+            <Label
+                Text="Contraseña:  "
+                SemanticProperties.HeadingLevel="Level5" />
+
+            <Entry
+                Text=" "
+                />
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Iniciar Sesión"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                />
         </VerticalStackLayout>
     </ScrollView>
 
