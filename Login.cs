@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
+
+
 
 namespace PA
 {
-    public partial class Login : Form
+    public partial class Login : APCPA
     {
         private FontCLo FontCLo;
 
